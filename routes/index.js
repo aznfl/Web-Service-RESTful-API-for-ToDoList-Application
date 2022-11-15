@@ -6,7 +6,5 @@ const tugasRouter = require('./tugas.router');
 
 router.use("/user", userRouter)
 router.use("/tugas", tugasRouter)
-// router.use("/psikolog")
-// router.use("/aarticle")
 
 module.exports = router
